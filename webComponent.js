@@ -1,6 +1,9 @@
 const template = document.createElement("template");
 template.innerHTML = `
 <style>
+  h2,h3{
+    color:white;
+  }
   .div3 {
     width: 30px;
     height: 30px;
@@ -23,8 +26,21 @@ template.innerHTML = `
     background-color: white;
   }
   .div2{
-    padding:10px;
+    padding:20px;
     background-color: black;
+  }
+  .image{
+    border-radius:50px
+  }
+  .name-container{
+    justify-content: center;
+    display:flex;
+    background-color: black;
+  }
+  .ocu-container{
+    justify-content: center;
+    display:flex;
+    background-color: red;
   }
 </style>
 <div class="main-div">
@@ -33,8 +49,18 @@ template.innerHTML = `
       <h1>JalaSoft</h1>
     </div>
     <div class="div2">
-      <img src="./imiage.jpg" width="300px" height="300px">
+      <img class="image" src="./imiage.jpg" width="200px" height="200px">
   </div>
+  <div class="name-container">
+    <h2>
+      Rapunzel
+    </h2>
+  </div>
+  <div class="ocu-container">
+  <h3>
+    Developer
+  </h3>
+</div>
 </div>
 
 
