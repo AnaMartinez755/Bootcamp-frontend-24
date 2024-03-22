@@ -23,6 +23,8 @@ template.innerHTML = `
     flex-direction:column;
   }
   .div1{
+    display:flex;
+    justify-content: center;
     background-color: white;
   }
   .div2{
