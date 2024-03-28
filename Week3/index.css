@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+}
+.card-item {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(54, 52, 50);
+  row-gap: 0.5rem;
+  padding: 1rem;
+  flex-grow: 1;
+}
+
+.second-container {
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+  background-color: rgb(54, 52, 50);
+  flex: 1;
+  margin: 0 1rem;
+}
+.second-container img {
+  max-width: 1.5rem;
+  max-height: 1.5rem;
+}
+.first-container {
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(54, 52, 50);
+  color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.274);
+  flex: 2;
+}
+
+.third-container {
+  display: flex;
+  padding: 0.5rem;
+  justify-content: center;
+  margin: 0 1rem;
+  background-color: rgb(181, 177, 172);
+  flex: 6;
+}
+
+.fourth-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(207, 145, 54);
+  flex: 4;
+  padding: 0.3rem;
+}
+
+.fourth-container-1 {
+  padding: 0.5rem;
+  background-color: rgb(209, 204, 199);
+  flex: 2;
+}
+
+.fourth-container-2 {
+  display: flex;
+  justify-content: end;
+  padding: 0.5rem;
+  background-color: rgb(209, 204, 199);
+  flex: 1;
+}
